@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "pr-webapp-test1"
+        },
+		"api_app_name": {
+            "value": "pr-apiapp-test1"
+        },
+        "hostingPlanName": {
+            "value": "pr-appserviceplan1"
+        },
+        "location": {
+            "value": "UK West"
+        },
+        "sku": {
+            "value": "Basic"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "PR-RG1"
+        },
+        "skuCode": {
+            "value": "B1"
+        },
+        "subscriptionId": {
+            "value": "bd1e690d-19f3-4bc5-8e9e-0543809bdf40"
+        },
+		"administratorLogin": {
+            "value": "prdba1test1"
+        },
+        "administratorLoginPassword": {
+            "value": null
+        },
+        "collation": {
+            "value": "SQL_Latin1_General_CP1_CI_AS"
+        },
+        "databaseName": {
+            "value": "PR_DB_TEST1"
+        },
+        "diagnosticsTemplate": {
+            "value": "DiagnosticsWithNoStorageAccount.json"
+        },
+        "diagnosticStorageAccountId": {
+            "value": "SA1"
+        },
+        "edition": {
+            "value": "Basic"
+        },
+        "maxSizeBytes": {
+            "value": "2147483648"
+        },
+        "requestedServiceObjectiveId": {
+            "value": "dd6d99bb-f193-4ec1-86f2-43d3bccbc49c"
+        },
+        "serverName": {
+            "value": "pr-dbserver1-test1"
+        },
+        "version": {
+            "value": "12.0"
+        }
+    }
+}
