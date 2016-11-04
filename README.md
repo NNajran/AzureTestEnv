@@ -1,5 +1,13 @@
 # AzureTestEnv
 
+This template creates the following resources in Azure:
+- An App Service Plan
+- A Web App
+- An Api App
+- A SQL DB
+
+Modify the values in the parameters file for your own environment.
+
 ```json
 azure login
 azure config mode arm
